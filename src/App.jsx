@@ -4,10 +4,12 @@ import Services from "./components/Services";
 import Tech from "./components/Tech";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import AnimatedTheme from "./components/AnimatedTheme";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white">
+    <div className="relative min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white">
+      <AnimatedTheme />
       <Navbar />
       <main>
         <Hero />
